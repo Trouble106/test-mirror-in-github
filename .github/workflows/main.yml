@@ -1,0 +1,9 @@
+
+image: ngbkhanh/node-aws:latest
+stages:
+    - install
+install-app:
+  stage: install
+  script:
+    - touch .env
+    - echo blobllfdahfjdksafdjk
